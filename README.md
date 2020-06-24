@@ -18,11 +18,13 @@
 ### Association
   belongs_to :user
 
+## users_groups中間テーブル
 |Column|Type|Options|
 |------|----|-------|
 |users_id|integer|null: false, foreign_key: true|
 |groups_id|integer|null: false, foreign_key: true|
 ### Association
+ belong_to :user
  belong_to :group
 
 ## groupsテーブル
