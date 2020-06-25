@@ -17,16 +17,16 @@
 |------|----|-------|
 |text|text| |
 |image|text| |
-|user_id|integer|null: false|foreign_key: true|
+|user_id|integer|null: false, foreign_key: true|
 ### Association
   belongs_to :user
-  belongs_to :guroups
+  belongs_to :guroup
   
 ## users_groups中間テーブル
 |Column|Type|Options|
 |------|----|-------|
-|user_id|integer|null: false|foreign_key: true|
-|group_id|integer|null: false|foreign_key: true|
+|user_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 ### Association
  belong_to :user
  belong_to :group
