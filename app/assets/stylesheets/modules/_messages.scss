@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+}
+.Side {
+  height: 100vh;
+  width: 300px;
+  &__SideHeader {
+    background-color: #253141;
+    color: #fff;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    &__username {
+      width: 260px;
+      display: flex;
+      // background-color: #d8d8d8;
+      text-align: center;
+      font-size: 16px; 
+      margin: 0 20px 0 20px;
+      justify-content: space-between;
+      &__rogo {
+        display: flex;
+        &__numberrightright {
+          .Contents__btn {
+            color: #fff;
+          }
+        }
+        &__numberrightleft {
+          margin-left: 5px;
+          .Contents__btn {
+            color: #fff;
+          }
+        }  
+      }
+    }
+  }
+  &__SideArea {
+    background-color: #2f3e51;
+    height: calc(100vh - 100px);
+    &__sidecontainer{
+      padding: 20px 20px 40px 20px;
+      color: #fff;
+
+      &__Techcamp {
+        padding-bottom: 5px;
+        font-size: 15px;
+      }
+      &__Message {
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+.Main {
+  width: calc(100vw - 300px);
+  &__MainHeader {
+    background-color: #ffffff;
+    height: 100px;
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      
+      &__leftcontainer {
+        padding: 35px 0 15px 40px;
+        &__test {
+          color: #333333;
+          font-size: 20px;
+        }
+        &__member { 
+          color: #999999;
+          font-size: 12px;
+        }
+      }
+      &__rightcontainer {
+        margin: 28px 40px 0 0;
+        font-size: 16px;
+        color: #38aef0;
+        padding: 0 20px;
+        height: 40px;
+      }
+    }
+  }
+
+  &__MainArea {
+    background-color: #fafafa;
+    height: calc(100vh - 190px);
+    &__MainContainer {
+        margin-left: 40px;
+      &__ToDay {
+        // margin: 35px 0 12px 0;
+      }
+      &__MainMessage {
+      }
+      &__MainTweet {
+        margin-top: 46px;
+      }
+    }
+  }
+
+
+
+  &__Coment {
+    background-color: #d2d2d2;
+    padding: 15px;
+    height: 90px;
+    &__UnderContainer {
+      display: flex;
+      justify-content: space-between;
+      
+      &__Text {
+        width: calc(100vw - 30px);
+        display: flex;
+        position: relative;
+        background-color: #ffff;
+        &__TextArea {
+          background-color: #ffff;
+          position: absolute;
+          bottom: 18px;
+          left: 10px;
+        }
+        &__TextRogo {
+          position: absolute;
+          right: 5px;
+          bottom: 18px;
+          .Contents__btn {
+            color: black;
+          }
+          .submit-btn {
+            display: none;
+          }  
+        }
+      }
+      &__Send {
+        padding: 16px 30px;
+        color: #fff;
+        background-color: #38aef0;
+        margin: 0 40px 0 15px;
+      }
+    }
+  }
+}
