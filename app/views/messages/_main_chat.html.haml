@@ -1,0 +1,31 @@
+.Main
+  .Main__MainHeader
+    .Main__MainHeader__container
+      .Main__MainHeader__container__leftcontainer
+        .Main__MainHeader__container__leftcontainer__test
+          test
+        .Main__MainHeader__container__leftcontainer__member
+          member
+      .Main__MainHeader__container__rightcontainer
+        = link_to "#", class: "Contents__btn" do
+          Edit
+
+  .Main__MainArea
+    .Main__MainArea__MainContainer
+      .Main__MainArea__MainContainer__ToDay
+        today
+      .Main__MainArea__MainContainer__MainMessage
+        message
+      .Main__MainArea__MainContainer__MainTweet
+        Tweet
+  .Main__Coment
+    .Main__Coment__UnderContainer
+      .Main__Coment__UnderContainer__Text
+        .Main__Coment__UnderContainer__Text__TextArea
+          textarea
+        .Main__Coment__UnderContainer__Text__TextRogo
+          %label{class: "input-box__image"}
+            = icon('fas', 'image')
+            %input{type: "file", class: "submit-btn"}
+      .Main__Coment__UnderContainer__Send
+        send
