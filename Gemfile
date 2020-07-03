@@ -50,7 +50,10 @@ group :test do
   gem 'webdrivers'
 end
 gem 'devise'
+gem 'pry-rails'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'font-awesome-sass'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "haml-rails", ">= 1.0", '<= 2.0.1'
+gem 'carrierwave'
+gem 'mini_magick'
