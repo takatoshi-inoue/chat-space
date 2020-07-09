@@ -60,7 +60,7 @@ $(function(){
       $('.Main__MainArea').animate({ scrollTop: $('.Main__MainArea')[0].scrollHeight});
     })
     .fail(function() {
-    alert("メッセージ送信に失敗しました");
+      alert("メッセージ送信に失敗しました");
   });
   });
 });
