@@ -95,20 +95,17 @@
     background-color: #fafafa;
     height: calc(100vh - 190px);
     margin: 10px 0 0 40px;
-    &__Messages {
-      // margin: 35px 0 12px 0;
-      &__MessageBox {
-        
-      }
-      // &__ToDay {
-      //   // margin: 35px 0 12px 0;
-      // }
-      // &__MainMessage {
-      // }
-      // &__MainTweet {
-      //   margin-top: 46px;
-      // }
+    &__MessageBox {
+      
     }
+    // &__ToDay {
+    //   // margin: 35px 0 12px 0;
+    // }
+    // &__MainMessage {
+    // }
+    // &__MainTweet {
+    //   margin-top: 46px;
+    // }
   }
 
   .Footer {
