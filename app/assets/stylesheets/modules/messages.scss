@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 .wrapper {
   display: flex;
 }
@@ -17,7 +16,6 @@
     &__username {
       width: 260px;
       display: flex;
-      // background-color: #d8d8d8;
       text-align: center;
       font-size: 16px; 
       margin: 0 20px 0 20px;
@@ -95,20 +93,6 @@
     background-color: #fafafa;
     height: calc(100vh - 190px);
     margin: 10px 0 0 40px;
-    &__Messages {
-      // margin: 35px 0 12px 0;
-      &__MessageBox {
-        
-      }
-      // &__ToDay {
-      //   // margin: 35px 0 12px 0;
-      // }
-      // &__MainMessage {
-      // }
-      // &__MainTweet {
-      //   margin-top: 46px;
-      // }
-    }
   }
 
   .Footer {
@@ -127,17 +111,11 @@
         .Form__inputContent {
           background-color: #ffff;
           width: 100%;
-          // position: absolute;
-          // bottom: 18px;
-          // left: 10px;
         }
         .Form__inputImage {
           position: absolute;
           right: 5px;
           bottom: 18px;
-          // .Contents__btn {
-          //   color: black;
-          // }
           .Hidden {
             display: none;
           }  
