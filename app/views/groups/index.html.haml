@@ -1,2 +1,14 @@
-.wrapper
-  = render 'messages/side_bar'
+.Notification
+  .Wrapper
+    .SideBar
+      .LeftHeader
+        .LeftHeader__list
+          %h3.LeftHeader__userName
+          %ul.LeftHeader__iconList
+            %li.LeftHeader__Icon
+              %a{:href => "/groups/new"}
+                %i.fas.fa-edit
+            %li.LeftHeader__Icon
+              %a{:href => "/users/1846/edit"}
+                %i.fas.fa-cog
+      .GroupList

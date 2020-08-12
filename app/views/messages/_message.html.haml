@@ -9,3 +9,15 @@
       %p.Message__content
         = message.content
     = image_tag message.image.url, class: 'Message__image' if message.image.present?
+
+    .MessageBox{data: {message: {id: message.id}}}
+  .MessageInfo
+    .MessageInfo__userName
+      = message.user.name
+    .MessageInfo__date
+      = message.created_at.to_s(:datetime)
+  .Message
+    - if message.content.present?
+      %p.Message__content
+        = message.content
+    = image_tag message
