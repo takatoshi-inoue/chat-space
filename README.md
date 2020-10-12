@@ -1,6 +1,8 @@
+# チャット機能と画像投稿機能のあるアプリ
 
-# README
 # chatspace
+
+
 # DB設計
 ## usersテーブル
 |Column|Type|Options|
